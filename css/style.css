@@ -1,0 +1,27 @@
+
+.nav-link{
+    color: rgb(85, 85, 85)
+}
+
+
+#profile-img {
+    border-radius: 50%;
+    
+        max-width: 50%;
+    
+  }
+
+.surname{
+    color: rgb(85, 85, 85)
+}
+
+.icon{
+
+    width: 48px;
+    height: 48px;
+}
+
+#icon-grid{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+}
