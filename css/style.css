@@ -15,6 +15,11 @@
     color: rgb(85, 85, 85)
 }
 
+.animation {
+    color: rgb(129, 80, 175);
+    font-size: 30px;
+}
+
 .icon{
 
     width: 48px;
