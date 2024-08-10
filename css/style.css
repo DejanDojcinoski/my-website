@@ -1,3 +1,10 @@
+.navbar-nav{
+    align-items: end;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
 
 .nav-link{
     color: rgb(85, 85, 85)
