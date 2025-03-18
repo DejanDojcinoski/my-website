@@ -1,3 +1,19 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9); /* Initial transparent-ish bg */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.4s ease-in-out;
+}
+
+/* Background gets more solid on scroll */
+.navbar.scrolled {
+    background-color: #6c63ff; /* Cool color on scroll */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow on scroll */
+}
+
+
 .navbar-nav{
     align-items: end;
 }
@@ -37,4 +53,18 @@
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     border-radius: 2rem;
+}
+
+#certification-grid{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 3rem;
+}
+
+.big-title{
+    font-family: cursive;
+}
+
+#about-me-text {
+    font-family: cursive;
 }

@@ -6,4 +6,13 @@ var typed = new Typed('.animation', {
     loop: true
   });
   
-  
+  $("h1").addClass("big-title");
+
+  window.addEventListener("scroll", () => {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
