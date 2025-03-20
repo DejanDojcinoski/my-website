@@ -2,15 +2,16 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: rgba(255, 255, 255, 0.9); /* Initial transparent-ish bg */
+    background-color: rgba(255, 255, 255, 0.8); /* Start with light transparency */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.4s ease-in-out;
 }
 
-/* Background gets more solid on scroll */
+/* Make it even more transparent on scroll */
 .navbar.scrolled {
-    background-color: #6c63ff; /* Cool color on scroll */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly deeper shadow on scroll */
+    background-color: rgba(108, 99, 255, 0.3); /* Lighter, more transparent purple */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px); /* Frosted glass effect (optional) */
 }
 
 
@@ -67,4 +68,9 @@
 
 #about-me-text {
     font-family: cursive;
+}
+
+#module-text{
+    font-family: cursive;
+    font-size: 19px;
 }

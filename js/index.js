@@ -1,6 +1,6 @@
 
 var typed = new Typed('.animation', {
-    strings: ["I'm a Software Developer", "I love sports", "This website is under construction!!!"],
+    strings: ["Hi I'm Dejan, Welcome to my webpage", "I'll hope you find me interesting"],
     typeSpeed: 60,
     backSpeed: 60,
     loop: true
