@@ -114,7 +114,11 @@
         font-size: clamp(1rem, 2vw, 1.5rem);
     }
 
-    #certification-section{
+    #certifications{
+        padding: 25px;
+    }
+
+    #projects{
         padding: 25px;
     }
 }
