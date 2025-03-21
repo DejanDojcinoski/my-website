@@ -56,13 +56,24 @@
     border-radius: 2rem;
 }
 
-#certification-grid{
+/* #certification-grid{
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     border-radius: 3rem;
+} */
+
+#linux-img{
+    border-radius: 2rem;
 }
 
-.big-title{
+.card{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    border-radius: 3rem;
+    padding: 10px;
+}
+
+.big-title{ 
     font-family: cursive;
 }
 
@@ -101,5 +112,9 @@
     #module-text{
     
         font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+
+    #certification-section{
+        padding: 25px;
     }
 }
