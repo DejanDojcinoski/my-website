@@ -29,8 +29,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ">    
-              <a class="nav-link" href="#" aria-current="page" >About me</a>
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#about" aria-current="page" >About me</a>
+              <a class="nav-link" href="#education">Education</a>
               <a class="nav-link" href="#skills">Skills</a>
               <a class="nav-link" href="#projects">Projects</a>
               <a class="nav-link" href="#certifications">Certifications</a>
@@ -57,11 +57,11 @@
       </div> -->
 
     <!--- About me -->
-    <section id="about">
+    
         <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id="profile-pic-container">
               <div class="col-10 col-sm-12 col-lg-6">
-                <img src="./files/Images/me.jpeg" class="d-block mx-lg-auto img-fluid" id="profile-img" alt="profile picture of Dejan Dojcinoski">
+                <img src="./files/Images/me.jpeg" class="d-block mx-auto img-fluid" id="profile-img" alt="profile picture of Dejan Dojcinoski">
               </div>
               <div class="col-lg-6 col-sm-12">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Dejan <span class="surname">Dojcinoski</span></h1>
@@ -69,30 +69,43 @@
               </div>
             </div>
           </div>
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-lg-8  col-sm-12">
-                <h2 class="pb-2 d-flex justify-content-center">About me</h2>
-                <p id="about-me-text">
-                  Hey there! I'm Dejan — a passionate software developer ready to make waves in the IT world. 
-                  I bring a unique mix of tech skills and real-world experience, paired with a love for problem-solving and 
-                  collaborating with others. Beyond the screen, I'm a head coach for an U11 football team, where I lead, 
-                  motivate, and strategize — both on and off the field. Football has been a huge part of my life, shaping my 
-                  teamwork and leadership skills. <br>
-                  <br>
-                  Family is incredibly important to me, and I strive to balance my professional life with quality time spent with 
-                  loved ones. I believe that strong family bonds help shape who we are, and I bring that same sense of loyalty, 
-                  trust, and support to my work and teams.  <br>
-                   <br> 
-                   I'm an energetic, fast learner who thrives on new challenges and loves turning 
-                  ideas into reality. Let’s create something amazing together!
-                  <br>
-                  
-                </p>
-              </div>
+
+
+    <section id="about">
+      <div class="container">
+        <div class="container col-xxl-12 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center py-5">
+            <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
+              <h4 class="fw-bold text-body-emphasis lh-1 mb-3">A little bit</h4>
+            </div>
+            <div class="col-lg-12 col-sm-12 d-flex justify-content-center">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About me</h1>
+            </div>
+            <div class="col-lg-12  col-sm-12">
+                
+              <p id="about-me-text">
+                Hey there! I'm Dejan — a passionate software developer ready to make waves in the IT world. 
+                I bring a unique mix of tech skills and real-world experience, paired with a love for problem-solving and 
+                collaborating with others. Beyond the screen, I'm a head coach for an U11 football team, where I lead, 
+                motivate, and strategize — both on and off the field. Football has been a huge part of my life, shaping my 
+                teamwork and leadership skills. <br>
+                <br>
+                Family is incredibly important to me, and I strive to balance my professional life with quality time spent with 
+                loved ones. I believe that strong family bonds help shape who we are, and I bring that same sense of loyalty, 
+                trust, and support to my work and teams.  <br>
+                 <br> 
+                 I'm an energetic, fast learner who thrives on new challenges and loves turning 
+                ideas into reality. Let’s create something amazing together!
+                <br>
+                
+              </p>
             </div>
           </div>
-    </section>
+        </div>
+      </div>
+
+    </section>      
+
 
     <!--Education-->
     <section id="education">
@@ -118,7 +131,7 @@
               and customer business applications.
             </p>
               <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn-primary my-2">Download certificate</button>
+              <button type="button" class="btn btn-primary my-2" id="download-btn" onclick="window.open('./files/Certificates/Certificate_Dejan_Dojcinoski.pdf')" >Download certificate</button>
               </div>
           </div>
           
@@ -128,62 +141,62 @@
             <h2 class="pb-2 d-flex justify-content-center">My modules</h2>
             
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Discovering mathematics</p>
+              <p class="text-container-size my-2" id="module-text">Discovering mathematics</p>
               <a href="https://www.open.ac.uk/courses/modules/mu123" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Introduction to computing and information technology 1</p>
+              <p class="text-container-size my-2" id="module-text">Introduction to computing and information technology 1</p>
               <a href="https://www.open.ac.uk/courses/modules/tm111" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Technologies in practice</p>
+              <p class="text-container-size my-2" id="module-text">Technologies in practice</p>
               <a href="https://www.open.ac.uk/courses/modules/tm129" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Introduction to computing and information technology 2</p>
+              <p class="text-container-size my-2" id="module-text">Introduction to computing and information technology 2</p>
               <a href="https://www.open.ac.uk/courses/modules/tm112" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Object-oriented Java programming</p>
+              <p class="text-container-size my-2" id="module-text">Object-oriented Java programming</p>
               <a href="https://www.open.ac.uk/courses/modules/m250" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Algorithms, data structures and computability</p>
+              <p class="text-container-size my-2" id="module-text">Algorithms, data structures and computability</p>
               <a href="https://www.open.ac.uk/courses/modules/m269" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Cisco networking (CCNA) part 1</p>
+              <p class="text-container-size my-2" id="module-text">Cisco networking (CCNA) part 1</p>
               <a href="https://www.open.ac.uk/courses/modules/tm257" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Web technologies</p>
+              <p class="text-container-size my-2" id="module-text">Web technologies</p>
               <a href="https://www.open.ac.uk/courses/modules/tm252" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Software engineering</p>
+              <p class="text-container-size my-2" id="module-text">Software engineering</p>
               <a href="https://www.open.ac.uk/courses/modules/tm354" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Web, mobile and cloud technologies</p>
+              <p class="text-container-size my-2" id="module-text">Web, mobile and cloud technologies</p>
               <a href="https://www.open.ac.uk/courses/modules/tm352" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">Cisco networking (CCNA) part 2</p>
+              <p class="text-container-size my-2" id="module-text">Cisco networking (CCNA) part 2</p>
               <a href="https://www.open.ac.uk/courses/modules/tm357" class="btn btn-primary my-2">Read more</a>
             </div>
 
             <div class="d-flex justify-content-between">
-              <p class="my-2" id="module-text">The computing and IT project</p>
+              <p class="text-container-size my-2" id="module-text">The computing and IT project</p>
               <a href="https://www.open.ac.uk/courses/modules/tm112" class="btn btn-primary my-2">Read more</a>
             </div>
           </div>
