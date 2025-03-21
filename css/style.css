@@ -94,5 +94,7 @@
         justify-content: center;
     }
 
-    
+    #education-container{
+        padding: 0%;
+    }
 }
