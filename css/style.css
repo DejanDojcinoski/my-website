@@ -67,13 +67,12 @@
 }
 
 #about-me-text {
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 #module-text{
-    /* font-family: cursive;
-    font-size: 19px; */
+    
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
@@ -88,6 +87,7 @@
 
     .btn{
         max-height: 38px;
+        min-width: 102.5px;
     }
 
     #profile-pic-container{
