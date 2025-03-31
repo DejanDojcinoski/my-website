@@ -56,11 +56,10 @@
     border-radius: 2rem;
 }
 
-/* #certification-grid{
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    border-radius: 3rem;
-} */
+#start {
+    
+    height: 50vh;
+}
 
 #linux-img{
     border-radius: 2rem;
