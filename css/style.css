@@ -57,8 +57,7 @@
 }
 
 #start {
-    
-    height: 50vh;
+    height: 80vh;
 }
 
 #linux-img{
@@ -88,6 +87,11 @@
 
 #download-btn:hover {
     background-color: darkblue;
+  }
+
+  .btn{
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
   }
 
 .project-icon{
